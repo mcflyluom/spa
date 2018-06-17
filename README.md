@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/mcflyluom/spa.svg?branch=feature)](https://travis-ci.org/mcflyluom/spa)
 # spa
-
+[![Build Status](https://travis-ci.org/mcflyluom/spa.svg?branch=feature)](https://travis-ci.org/mcflyluom/spa)
 ## Build Setup
 
 ``` bash

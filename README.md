@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/mcflyluom/spa.svg?branch=feature)](https://travis-ci.org/mcflyluom/spa)
 # spa
 
 ## Build Setup

@@ -18,3 +18,11 @@ script:
     - npm run lint
     - npm run test
 
+email:
+  recipients:
+    - luoshasuzy@163.com
+  on_success: always
+  on_failure: always
+
+
+

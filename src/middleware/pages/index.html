@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>中间件</title>
+</head>
+<body >
+    <script src="../js/app.js"></script>
+    <script>
+       app.start({
+        matchers:[
+            '/user/:id',
+            '/group/:gid/user/:uid/'
+        ],
+        rules:[
+            {
+                matchers:/\/group\/[\d]+\/user\/[\d]+\//i,
+                target:'/user/'
+
+            }
+        ],
+        routes:{
+            '/user/':User,
+            '/group/':Group
+        }
+       });
+        
+    </script>
+</body>
+</html>
